@@ -1,0 +1,259 @@
+﻿body {
+    border: 0.5px  solid black ;
+    margin:0;
+    height:9000px;
+    position:absolute;
+}
+#top {
+    
+    margin:0;
+    background-color: white;
+    width: 100%;
+    height: 47px;
+    border-bottom: 0.5px solid gray;
+}
+#topcanhphai {
+    
+    left: 786px;
+    top: -20px;
+    background-color: white;
+    width: 72%;
+    height: 47px;
+    border-bottom: 0.5px solid gray;
+}
+#size-img {
+    
+    width: 17px;
+    height: 16px;
+    border-radius: 100%;
+    position: relative; 
+    left: 119px;
+    top: 7px; 
+}
+#second-top {
+    z-index:1;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 95px;
+    border-bottom: 0.5px solid black;
+}
+#vn-text {
+    position: relative;
+    top: 3px;
+    left: 117px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#en-text {
+    position: relative;
+    top: 3px;
+    left: 118px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#point-menu {
+    position: relative;
+    top: 15px;
+    left: 114px;
+}
+.point-hotline {
+    position: relative;
+    top: 15px;
+    left: 135px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.fm-menu {
+    font-size:15px;
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    top: 3px;
+    left: 128px;
+}
+.fm-link-menu{
+    text-decoration:none;
+    padding:8px;
+}
+
+ul li a {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    color:black;
+}
+
+    ul li a:hover {
+        color:orange;
+        opacity: 1;
+        font-weight: bold;
+    }
+.phone-icon {
+    width: 16px; 
+    height: 16px;
+    margin-right: 1px; 
+}
+#size-logo {
+    width: 140px;
+    height: 50px;
+    position: relative;
+    left: 135px;
+    top:25px;
+}
+.sub-menu {
+    display: none; /* Ẩn menu con ban đầu */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;    
+}
+
+.fm-menu li:hover .sub-menu {
+    display: block; /* Hiển thị menu con khi rê chuột vào menu cha */
+}
+
+.fm-menu li {
+    position: relative;
+}
+
+    .fm-menu li:hover {
+        /* Tạo hiệu ứng hover */
+    }
+.sub-menu a {
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+
+.sub-menu li a {
+    display: inline; /* Hiển thị chữ in màu */
+    transition: color 0.3s ease-in-out; /* Hiệu ứng hover */
+}
+
+    .sub-menu li a:hover {
+        color: orange; /* Màu sáng khi hover */
+    }
+
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: right;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    right: 1px;
+    top: 0px;
+}
+
+#search-input {
+    width: 300px;
+    height: 36px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+   
+}
+
+
+
+#left-menu {
+    float: left;
+    width: 70%;
+    height:96px;
+}
+.flex-col {
+    max-height: 10%;
+}
+.flex-right {
+    margin-left: auto;
+}
+#point-kinhlup {
+    position: relative;
+    right: -4px;
+    top: 0px;
+}
+
+
+    
+
+.wrapper {
+    border: 1px solid #000;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    right: -139px;
+    top: 36px;
+    font-size: 24px;
+    height: 32px;
+    background-color:lightgray;
+}
+
+input,
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+input {
+    padding-right: 30px; /* button padding */
+}
+
+#div-null{
+    width:100%;
+    height:35px;
+}
+#div-sofa{
+    width:50%;
+    height:580px;
+    float:left;
+}
+#div-Banan {
+    height: 280px;
+    width: 40%;
+    margin-left: 10%;
+    position: relative;
+    left: -25px;
+}
+#div-Ghe {
+    height: 280px;
+    width: 40%;
+    margin-left: 10%;
+    position: relative;
+    left: -37px;
+}
+
+#div-Giuong {
+    height: 280px;
+    width: 40%;
+   margin-left:10%;
+   position:relative;
+   left:-24px;
+   bottom:-11px;
+ 
+}
+#div-GheAn {
+    height: 280px;
+    width: 40%;
+    margin-left: 10%;
+    position: relative;
+    left:-37px;
+    bottom: -11px;
+}
+#div-other {
+    width: 50%;
+    height: 580px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
